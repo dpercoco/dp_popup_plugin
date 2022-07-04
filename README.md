@@ -14,7 +14,9 @@ for parameter 'google_play_url'
 
 Lastly, a 'close' button is displayed at the bottom of the form which will closed the pop-up form when clicked.
 
+    <button type="button" class="formSubmitBtn" onclick="closeForm()">Close</button>
+    
 To call from WordPress add the following ShortCode.
 
-  [popup-plugin button_text="Download Today" banner_image="" apple_store_url="" google_play_url=""]
+    [popup-plugin button_text="Download Today" banner_image="" apple_store_url="" google_play_url=""]
 
